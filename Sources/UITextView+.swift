@@ -10,7 +10,7 @@ import UIKit
 
 extension UITextView: UITextViewDelegate {
     
-    var placeholder: String? {
+    public var placeholder: String? {
         get {
             guard let label = self.viewWithTag(100) as? UILabel, let placeholder = label.text else { return nil }
             return placeholder

@@ -10,12 +10,12 @@ import Foundation
 
 extension NSObject: ExtensionCompatible {}
 
-extension Extension where Base: NSObject {
-    static var className: String {
+public extension Extension where Base: NSObject {
+    public static var className: String {
         return String(describing: type(of: Base()))
     }
     
-    var className: String {
+    public var className: String {
         return type(of: self.base).ex.className
     }
     
@@ -24,7 +24,7 @@ extension Extension where Base: NSObject {
      * NSCoding の実装が必要
      * @return コピーされたオブジェクト
      */
-    func deepCopy<T>() -> T? {
+    public func deepCopy<T>() -> T? {
         let data = NSKeyedArchiver.archivedData(withRootObject: self)
         return NSKeyedUnarchiver.unarchiveObject(with: data) as? T
     }

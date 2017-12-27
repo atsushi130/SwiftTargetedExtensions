@@ -10,8 +10,8 @@ import Foundation
 
 extension UUID: ExtensionCompatible {}
 
-extension Extension where Base == UUID {
-    static func generate() -> String {
+public extension Extension where Base == UUID {
+    public static func generate() -> String {
         return UUID().uuidString
     }
 }

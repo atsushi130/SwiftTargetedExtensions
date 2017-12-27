@@ -10,8 +10,8 @@ import UIKit
 
 extension CGColor: ExtensionCompatible {}
 
-extension Extension where Base == CGColor {
-    var uiColor: UIColor {
+public extension Extension where Base == CGColor {
+    public var uiColor: UIColor {
         return UIColor(cgColor: self.base)
     }
 }

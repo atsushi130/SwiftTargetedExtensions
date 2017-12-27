@@ -10,8 +10,8 @@ import Foundation
 
 extension String: ExtensionCompatible {}
 
-extension Extension where Base == String {
-    func toDate(by format: String = "yyyy/MM/dd HH:mm:ss", locale: Locale = Locale.current) -> Date? {
+public extension Extension where Base == String {
+    public func toDate(by format: String = "yyyy/MM/dd HH:mm:ss", locale: Locale = Locale.current) -> Date? {
         return DateFormatter.ex.from(locale: locale, format: format).date(from: self.base)
     }
 }

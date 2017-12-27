@@ -8,8 +8,8 @@
 
 import Foundation
 
-extension Extension where Base: DateFormatter {
-    static func from(locale: Locale, format: String) -> DateFormatter {
+public extension Extension where Base: DateFormatter {
+    public static func from(locale: Locale, format: String) -> DateFormatter {
         let formatter = DateFormatter()
         formatter.locale     = locale
         formatter.dateFormat = format

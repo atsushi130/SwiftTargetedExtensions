@@ -10,6 +10,6 @@ import Foundation
 
 extension Bool: ExtensionCompatible {}
 
-extension Extension where Base == Bool {
-    var toInt: Int { return self.base ? 1 : 0 }
+public extension Extension where Base == Bool {
+    public var toInt: Int { return self.base ? 1 : 0 }
 }
