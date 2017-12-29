@@ -10,21 +10,21 @@ import Foundation
 
 extension Double: ExtensionCompatible {}
 
-extension Extension where Base == Double {
+public extension Extension where Base == Double {
     
-    var half: Double {
+    public var half: Double {
         return self.base / 2.0
     }
     
-    var floor: Double {
+    public var floor: Double {
         return Foundation.floor(self.base)
     }
     
-    var ceil: Double {
+    public var ceil: Double {
         return Foundation.ceil(self.base)
     }
     
-    var round: Double {
+    public var round: Double {
         return Foundation.round(self.base)
     }
 }

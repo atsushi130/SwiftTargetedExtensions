@@ -10,21 +10,21 @@ import Foundation
 
 extension CGFloat: ExtensionCompatible {}
 
-extension Extension where Base == CGFloat {
+public extension Extension where Base == CGFloat {
     
-    var half: CGFloat {
+    public var half: CGFloat {
         return self.base / 2.0
     }
     
-    var floor: CGFloat {
+    public var floor: CGFloat {
         return Foundation.floor(self.base)
     }
     
-    var ceil: CGFloat {
+    public var ceil: CGFloat {
         return Foundation.ceil(self.base)
     }
     
-    var round: CGFloat {
+    public var round: CGFloat {
         return Foundation.round(self.base)
     }
 }
