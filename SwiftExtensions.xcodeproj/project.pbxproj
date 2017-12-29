@@ -10,6 +10,7 @@
 		759441951FF67998001E4FD1 /* CGFloat+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759441941FF67998001E4FD1 /* CGFloat+.swift */; };
 		759441971FF67BE4001E4FD1 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759441961FF67BE4001E4FD1 /* Double+.swift */; };
 		759441991FF67C9E001E4FD1 /* Int+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759441981FF67C9E001E4FD1 /* Int+.swift */; };
+		7594419E1FF6B08B001E4FD1 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7594419D1FF6B08B001E4FD1 /* UIColor+.swift */; };
 		75E595F61FF21D6800784269 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E595EC1FF21D6800784269 /* SwiftExtensions.framework */; };
 		75E595FB1FF21D6800784269 /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E595FA1FF21D6800784269 /* SwiftExtensionsTests.swift */; };
 		75E595FD1FF21D6800784269 /* SwiftExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E595EF1FF21D6800784269 /* SwiftExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +44,7 @@
 		759441941FF67998001E4FD1 /* CGFloat+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+.swift"; sourceTree = "<group>"; };
 		759441961FF67BE4001E4FD1 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		759441981FF67C9E001E4FD1 /* Int+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+.swift"; sourceTree = "<group>"; };
+		7594419D1FF6B08B001E4FD1 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		75E595EC1FF21D6800784269 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E595EF1FF21D6800784269 /* SwiftExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftExtensions.h; sourceTree = "<group>"; };
 		75E595F01FF21D6800784269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				759441941FF67998001E4FD1 /* CGFloat+.swift */,
 				759441961FF67BE4001E4FD1 /* Double+.swift */,
 				759441981FF67C9E001E4FD1 /* Int+.swift */,
+				7594419D1FF6B08B001E4FD1 /* UIColor+.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				75E596111FF21D9500784269 /* BaseExtension.swift in Sources */,
 				759441971FF67BE4001E4FD1 /* Double+.swift in Sources */,
 				75E5961C1FF21DF000784269 /* DesignableLabel.swift in Sources */,
+				7594419E1FF6B08B001E4FD1 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
