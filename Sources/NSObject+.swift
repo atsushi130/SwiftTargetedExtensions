@@ -12,7 +12,7 @@ extension NSObject: ExtensionCompatible {}
 
 public extension Extension where Base: NSObject {
     public static var className: String {
-        return String(describing: type(of: Base()))
+        return String(describing: Base.self)
     }
     
     public var className: String {
