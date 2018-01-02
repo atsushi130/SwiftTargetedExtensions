@@ -8,9 +8,9 @@
 
 import UIKit
 
-protocol NibDesignable: class {}
+public protocol NibDesignable: class {}
 
-extension NibDesignable where Self: UIView {
+public extension NibDesignable where Self: UIView {
     
     private func instantiate() -> UIView {
         let bundle = Bundle(for: type(of: self))
@@ -18,7 +18,7 @@ extension NibDesignable where Self: UIView {
         return nib.instantiate(withOwner: self).first as? UIView ?? UIView()
     }
     
-    func configureNib() {
+    public func configureNib() {
         let view = self.instantiate()
         self.insertSubview(view, at: 0)
         view.ex.fillSuperview()
