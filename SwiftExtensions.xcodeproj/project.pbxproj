@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D68994C1FFBC997004640CE /* NibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D68994B1FFBC997004640CE /* NibInstantiatable.swift */; };
-		0D6899501FFBCB2C004640CE /* EmbeddedNibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D68994F1FFBCB2C004640CE /* EmbeddedNibInstantiatable.swift */; };
+		0D85A8691FFC1D0F00A9C364 /* NibDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D85A8681FFC1D0F00A9C364 /* NibDesignable.swift */; };
 		759441951FF67998001E4FD1 /* CGFloat+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759441941FF67998001E4FD1 /* CGFloat+.swift */; };
 		759441971FF67BE4001E4FD1 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759441961FF67BE4001E4FD1 /* Double+.swift */; };
 		759441991FF67C9E001E4FD1 /* Int+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759441981FF67C9E001E4FD1 /* Int+.swift */; };
@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		0D68994B1FFBC997004640CE /* NibInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiatable.swift; sourceTree = "<group>"; };
-		0D68994F1FFBCB2C004640CE /* EmbeddedNibInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedNibInstantiatable.swift; sourceTree = "<group>"; };
+		0D85A8681FFC1D0F00A9C364 /* NibDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibDesignable.swift; sourceTree = "<group>"; };
 		759441941FF67998001E4FD1 /* CGFloat+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+.swift"; sourceTree = "<group>"; };
 		759441961FF67BE4001E4FD1 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		759441981FF67C9E001E4FD1 /* Int+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+.swift"; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 				759441981FF67C9E001E4FD1 /* Int+.swift */,
 				7594419D1FF6B08B001E4FD1 /* UIColor+.swift */,
 				0D68994B1FFBC997004640CE /* NibInstantiatable.swift */,
-				0D68994F1FFBCB2C004640CE /* EmbeddedNibInstantiatable.swift */,
+				0D85A8681FFC1D0F00A9C364 /* NibDesignable.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -265,12 +265,12 @@
 				75E596231FF220DB00784269 /* UITableView+.swift in Sources */,
 				759441951FF67998001E4FD1 /* CGFloat+.swift in Sources */,
 				75E596121FF21D9500784269 /* DateFormetter+.swift in Sources */,
-				0D6899501FFBCB2C004640CE /* EmbeddedNibInstantiatable.swift in Sources */,
 				75E596181FF21D9500784269 /* UIVew+.swift in Sources */,
 				75E596211FF21FD200784269 /* Operator+.swift in Sources */,
 				75E5961F1FF21EB100784269 /* Bool+.swift in Sources */,
 				75E596161FF21D9500784269 /* UITextView+.swift in Sources */,
 				75E596131FF21D9500784269 /* NSObject+.swift in Sources */,
+				0D85A8691FFC1D0F00A9C364 /* NibDesignable.swift in Sources */,
 				75E596151FF21D9500784269 /* UUID+.swift in Sources */,
 				75E596141FF21D9500784269 /* UICollectionView+.swift in Sources */,
 				75E596111FF21D9500784269 /* BaseExtension.swift in Sources */,
