@@ -15,7 +15,7 @@ public protocol NibInstantiatable {
 }
 
 public extension NibInstantiatable where Self: NSObject {
-    public static var nibName: String { return self.ex.className }
+    public static var nibName: String { return String(describing: self) }
     public static var nibBundle: Bundle { return Bundle(for: self) }
     public static var nibOwner: Any? { return self }
     public static var nibOptions: [AnyHashable: Any]? { return nil }
