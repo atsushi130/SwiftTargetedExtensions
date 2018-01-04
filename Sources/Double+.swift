@@ -27,4 +27,8 @@ public extension Extension where Base == Double {
     public var round: Double {
         return Foundation.round(self.base)
     }
+    
+    public var cgFloat: CGFloat {
+        return CGFloat(self.base)
+    }
 }

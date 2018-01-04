@@ -72,6 +72,11 @@ let number = 1.5
 print(number.ex.round) // 2.0
 ```
 
+CGFloat
+```swift
+let number = 1.5.ex.cgFloat
+```
+
 ### CGFloat
 The same as String extensions.
 
