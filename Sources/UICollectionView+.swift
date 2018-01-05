@@ -62,7 +62,7 @@ public extension Extension where Base: UICollectionView {
     }
 }
 
-public extension UICollectionViewDataSource {
+public extension UICollectionViewDelegate {
     public func numberOfSections(collectionView: UICollectionView) -> Int {
         return 1
     }
