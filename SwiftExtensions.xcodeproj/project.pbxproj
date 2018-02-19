@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2E0536203A4C5600F5AB3C /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E0535203A4C5600F5AB3C /* StoryboardInstantiatable.swift */; };
 		0D68994C1FFBC997004640CE /* NibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D68994B1FFBC997004640CE /* NibInstantiatable.swift */; };
 		0D85A8691FFC1D0F00A9C364 /* NibDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D85A8681FFC1D0F00A9C364 /* NibDesignable.swift */; };
 		759441951FF67998001E4FD1 /* CGFloat+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759441941FF67998001E4FD1 /* CGFloat+.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2E0535203A4C5600F5AB3C /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
 		0D68994B1FFBC997004640CE /* NibInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiatable.swift; sourceTree = "<group>"; };
 		0D85A8681FFC1D0F00A9C364 /* NibDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibDesignable.swift; sourceTree = "<group>"; };
 		759441941FF67998001E4FD1 /* CGFloat+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+.swift"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				7594419D1FF6B08B001E4FD1 /* UIColor+.swift */,
 				0D68994B1FFBC997004640CE /* NibInstantiatable.swift */,
 				0D85A8681FFC1D0F00A9C364 /* NibDesignable.swift */,
+				0D2E0535203A4C5600F5AB3C /* StoryboardInstantiatable.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				759441991FF67C9E001E4FD1 /* Int+.swift in Sources */,
 				75E596191FF21D9500784269 /* CGColor+.swift in Sources */,
 				75E596171FF21D9500784269 /* Date+.swift in Sources */,
+				0D2E0536203A4C5600F5AB3C /* StoryboardInstantiatable.swift in Sources */,
 				0D68994C1FFBC997004640CE /* NibInstantiatable.swift in Sources */,
 				75E5961A1FF21D9500784269 /* String+.swift in Sources */,
 				75E596231FF220DB00784269 /* UITableView+.swift in Sources */,
