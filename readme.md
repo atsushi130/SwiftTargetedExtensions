@@ -1,9 +1,13 @@
-# SwiftExtensions
+<p align="center">
+    <h1 align="center">SwiftExtensions</h1>
+</p1>
 
-[![mit licensed](https://img.shields.io/badge/License-MIT-d94c32.svg)](./license)
-[![swiftextensions](https://img.shields.io/badge/Swift-SwiftExtensions-3B5998.svg)](https://github.com/atsushi130/SwiftExtensions.git)
-![swift](https://img.shields.io/badge/Swift-4-ffac45.svg)
-![Carthage](https://img.shields.io/badge/Carthage-v1.0.3-7ec9d9.svg)
+<p align="center">
+    <a href="https://github.com/atsushi130/SwiftExtensions.git"><img src="https://img.shields.io/badge/Swift-SwiftExtensions-3B5998.svg"></a> 
+    <img src="https://img.shields.io/badge/Swift-4-ffac45.svg">
+    <a href="./license"><img src="https://img.shields.io/badge/License-MIT-d94c32.svg"></a>
+    <img src="https://img.shields.io/badge/Carthage-v1.0.3-7ec9d9.svg">
+</p>
 
 ## Installation
 **Install via [Carthage](https://github.com/Carthage/Carthage)**
