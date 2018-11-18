@@ -9,13 +9,13 @@
 import Foundation
 
 public extension Extension where Base: UITableView {
-    public func register<T: UITableViewCell>(cellType: T.Type, bundle: Bundle? = nil) {
+    public func register<T: UITableViewCell>(cellType: T.Type, bundle: Bundle = Bundle(for: T.self)) {
         let className = cellType.ex.className
         let nib       = UINib(nibName: className, bundle: bundle)
         self.base.register(nib, forCellReuseIdentifier: className)
     }
     
-    public func register<T: UITableViewCell>(cellTypes: [T.Type], bundle: Bundle? = nil) {
+    public func register<T: UITableViewCell>(cellTypes: [T.Type], bundle: Bundle = Bundle(for: T.self)) {
         cellTypes.forEach { self.register(cellType: $0, bundle: bundle) }
     }
     
