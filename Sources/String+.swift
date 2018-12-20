@@ -12,7 +12,7 @@ extension String: ExtensionCompatible {}
 
 public extension Extension where Base == String {
     
-    var attributed: NSMutableAttributedString {
+    public var attributed: NSMutableAttributedString {
         return NSMutableAttributedString(string: self.base)
     }
     
