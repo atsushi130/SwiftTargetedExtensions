@@ -23,14 +23,14 @@ public class DesignableLabel: UILabel {
     
     public override func textRect(forBounds bounds: CGRect, limitedToNumberOfLines numberOfLines: Int) -> CGRect {
         let textInsets     = self.textInsets
-        let insetRect      = UIEdgeInsetsInsetRect(bounds, self.textInsets)
+        let insetRect      = bounds.inset(by: self.textInsets)
         let textRect       = super.textRect(forBounds: insetRect, limitedToNumberOfLines: numberOfLines)
         let invertedInsets = UIEdgeInsets(top: -textInsets.top, left: -textInsets.left, bottom: -textInsets.bottom, right: -textInsets.right)
-        return UIEdgeInsetsInsetRect(textRect, invertedInsets)
+        return textRect.inset(by: invertedInsets)
     }
     
     public override func drawText(in rect: CGRect) {
-        super.drawText(in: UIEdgeInsetsInsetRect(rect, self.textInsets))
+        super.drawText(in: rect.inset(by: self.textInsets))
     }
 }
 
@@ -66,7 +66,7 @@ public extension DesignableLabel {
             let paragraphStyle = NSMutableParagraphStyle()
             paragraphStyle.lineHeightMultiple = newValue
             self.attributedHeightMultiple     = paragraphStyle.lineHeightMultiple
-            self.attributedText = NSAttributedString(string: self.text ?? "", attributes: [NSAttributedStringKey.paragraphStyle : paragraphStyle])
+            self.attributedText = NSAttributedString(string: self.text ?? "", attributes: [NSAttributedString.Key.paragraphStyle : paragraphStyle])
         }
         get { return self.attributedHeightMultiple }
     }

@@ -25,6 +25,6 @@ public extension NibInstantiatable where Self: NSObject {
 public extension NibInstantiatable where Self: UIView {
     public static func instantiate() -> Self {
         let nib = UINib(nibName: Self.nibName, bundle: Self.nibBundle)
-        return nib.instantiate(withOwner: Self.nibOwner, options: Self.nibOptions)[Self.instantiateIndex] as! Self
+        return nib.instantiate(withOwner: Self.nibOwner, options: Self.nibOptions as! [UINib.OptionsKey : Any])[Self.instantiateIndex] as! Self
     }
 }
