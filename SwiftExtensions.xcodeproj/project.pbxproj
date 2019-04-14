@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D11795922631C0900CB2C82 /* JSONEncoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11795822631C0900CB2C82 /* JSONEncoder+.swift */; };
+		0D11795B22631CF400CB2C82 /* JSONCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11795A22631CF400CB2C82 /* JSONCoder.swift */; };
 		0D170A9C219B1D5F00E047BA /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D170A9B219B1D5F00E047BA /* UIAlertController+.swift */; };
 		0D2E0536203A4C5600F5AB3C /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E0535203A4C5600F5AB3C /* StoryboardInstantiatable.swift */; };
 		0D68994C1FFBC997004640CE /* NibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D68994B1FFBC997004640CE /* NibInstantiatable.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		0D11795822631C0900CB2C82 /* JSONEncoder+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+.swift"; sourceTree = "<group>"; };
+		0D11795A22631CF400CB2C82 /* JSONCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCoder.swift; sourceTree = "<group>"; };
 		0D170A9B219B1D5F00E047BA /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		0D2E0535203A4C5600F5AB3C /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
 		0D68994B1FFBC997004640CE /* NibInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiatable.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				0DEC143321A9300A0022B7AC /* DispatchSemaphore+.swift */,
 				0DDEE3BB221161BE00194AEC /* JSONDecoder+.swift */,
 				0D11795822631C0900CB2C82 /* JSONEncoder+.swift */,
+				0D11795A22631CF400CB2C82 /* JSONCoder.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				75E596161FF21D9500784269 /* UITextView+.swift in Sources */,
 				75E596131FF21D9500784269 /* NSObject+.swift in Sources */,
 				0D85A8691FFC1D0F00A9C364 /* NibDesignable.swift in Sources */,
+				0D11795B22631CF400CB2C82 /* JSONCoder.swift in Sources */,
 				75E596151FF21D9500784269 /* UUID+.swift in Sources */,
 				75E596141FF21D9500784269 /* UICollectionView+.swift in Sources */,
 				75E596111FF21D9500784269 /* BaseExtension.swift in Sources */,
