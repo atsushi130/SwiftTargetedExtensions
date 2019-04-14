@@ -17,11 +17,11 @@ public extension Extension where Base == String {
     }
 
     public func kebabcased() -> String {
-        return self.replacingOccurrences(of: "([A-Z])", with: "-$1", options: .regularExpression).lowercased()
+        return self.base.replacingOccurrences(of: "([A-Z])", with: "-$1", options: .regularExpression).lowercased()
     }
 
     func snakecased() -> String {
-        return self.replacingOccurrences(of: "([A-Z])", with: "_$1", options: .regularExpression).lowercased()
+        return self.base.replacingOccurrences(of: "([A-Z])", with: "_$1", options: .regularExpression).lowercased()
     }
     
     public func toDate(by format: String = "yyyy/MM/dd HH:mm:ss", locale: Locale = Locale.current) -> Date? {
