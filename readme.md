@@ -27,6 +27,9 @@ github "atsushi130/SwiftExtensions"
 - [Bool](#bool)
 - [Date](#date)
 - [DateFormatter](#dateformatter)
+- [JSONEncoder](#jsonencoder)
+- [JSONDecoder](#jsondecoder)
+- [JSONCoder](#jsoncoder)
 - [CGColor](#cgcolor)
 - [UIColor](#uicolor)
 - [UITextView](#uitextview)
@@ -115,6 +118,22 @@ let dateString = Date().ex.toString()
 ### DateFormatter
 ```swift
 let formatter = DateFormatter.ex.from(locale: Local.current, format: "yyyy/MM/dd HH:mm:ss")
+```
+
+### JSONEncoder
+```swift
+let encoder = JSONEncoder.snakeCaseEncoder
+```
+
+### JSONDecoder
+```swift
+let decoder = JSONDecoder.snakeCaseDecoder
+```
+
+### JSONCoder
+```swift
+let encoder = JSONCoder.snakeCaseEncoder
+let decoder = JSONCoder.snakeCaseDecoder
 ```
 
 ### CGColor
