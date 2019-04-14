@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D11795922631C0900CB2C82 /* JSONEncoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11795822631C0900CB2C82 /* JSONEncoder+.swift */; };
 		0D170A9C219B1D5F00E047BA /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D170A9B219B1D5F00E047BA /* UIAlertController+.swift */; };
 		0D2E0536203A4C5600F5AB3C /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E0535203A4C5600F5AB3C /* StoryboardInstantiatable.swift */; };
 		0D68994C1FFBC997004640CE /* NibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D68994B1FFBC997004640CE /* NibInstantiatable.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D11795822631C0900CB2C82 /* JSONEncoder+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+.swift"; sourceTree = "<group>"; };
 		0D170A9B219B1D5F00E047BA /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		0D2E0535203A4C5600F5AB3C /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
 		0D68994B1FFBC997004640CE /* NibInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiatable.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				0DEC143121A92FCC0022B7AC /* DispatchQueue+.swift */,
 				0DEC143321A9300A0022B7AC /* DispatchSemaphore+.swift */,
 				0DDEE3BB221161BE00194AEC /* JSONDecoder+.swift */,
+				0D11795822631C0900CB2C82 /* JSONEncoder+.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				75E596231FF220DB00784269 /* UITableView+.swift in Sources */,
 				759441951FF67998001E4FD1 /* CGFloat+.swift in Sources */,
 				75E596121FF21D9500784269 /* DateFormetter+.swift in Sources */,
+				0D11795922631C0900CB2C82 /* JSONEncoder+.swift in Sources */,
 				75E596181FF21D9500784269 /* UIVew+.swift in Sources */,
 				75E596211FF21FD200784269 /* Operator+.swift in Sources */,
 				75E5961F1FF21EB100784269 /* Bool+.swift in Sources */,
