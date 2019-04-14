@@ -103,6 +103,16 @@ Regular expression
 password.ex.isMatch(pattern: "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}$")
 ```
 
+snakecased
+```swift
+"stringString".snakecased() // "string_string"
+```
+
+kebabcased
+```swift
+"stringString".kebabcased() // "string-string"
+```
+
 ### Bool
 toInt
 ```swift
