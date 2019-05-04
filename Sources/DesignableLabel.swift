@@ -37,31 +37,31 @@ public class DesignableLabel: UILabel {
 public extension DesignableLabel {
     
     @IBInspectable
-    public var leftTextInset: CGFloat {
+    var leftTextInset: CGFloat {
         set { self.textInsets.left = newValue }
         get { return self.textInsets.left }
     }
     
     @IBInspectable
-    public var rightTextInset: CGFloat {
+    var rightTextInset: CGFloat {
         set { self.textInsets.right = newValue }
         get { return self.textInsets.right }
     }
     
     @IBInspectable
-    public var topTextInset: CGFloat {
+    var topTextInset: CGFloat {
         set { self.textInsets.top = newValue }
         get { return self.textInsets.top }
     }
     
     @IBInspectable
-    public var bottomTextInset: CGFloat {
+    var bottomTextInset: CGFloat {
         set { self.textInsets.bottom = newValue }
         get { return self.textInsets.bottom }
     }
     
     @IBInspectable
-    public var heightMultiple: CGFloat {
+    var heightMultiple: CGFloat {
         set {
             let paragraphStyle = NSMutableParagraphStyle()
             paragraphStyle.lineHeightMultiple = newValue

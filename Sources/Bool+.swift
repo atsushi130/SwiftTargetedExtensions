@@ -11,5 +11,5 @@ import Foundation
 extension Bool: ExtensionCompatible {}
 
 public extension Extension where Base == Bool {
-    public var toInt: Int { return self.base ? 1 : 0 }
+    var toInt: Int { return self.base ? 1 : 0 }
 }

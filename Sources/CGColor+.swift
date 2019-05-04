@@ -11,7 +11,7 @@ import UIKit
 extension CGColor: ExtensionCompatible {}
 
 public extension Extension where Base == CGColor {
-    public var uiColor: UIColor {
+    var uiColor: UIColor {
         return UIColor(cgColor: self.base)
     }
 }
