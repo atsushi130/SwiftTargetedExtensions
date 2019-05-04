@@ -10,12 +10,12 @@ import UIKit
 
 public extension Extension where Base: UIColor {
     
-    public static func hex(_ hex: UInt64, alpha: Double = 1.0) -> UIColor {
+    static func hex(_ hex: UInt64, alpha: Double = 1.0) -> UIColor {
         let color = Extension<UIColor>.getRgb(hex: hex)
         return UIColor(red: color.red, green: color.green, blue: color.blue, alpha: CGFloat(alpha))
     }
     
-    public static func hex(string hexString: String, alpha: Double = 1.0) -> UIColor {
+    static func hex(string hexString: String, alpha: Double = 1.0) -> UIColor {
         
         let scanner = Scanner(string: hexString.replacingOccurrences(of: "#", with: ""))
         var color: UInt64 = 0

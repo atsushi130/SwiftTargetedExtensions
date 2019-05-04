@@ -11,8 +11,7 @@ import Foundation
 extension Int: ExtensionCompatible {}
 
 public extension Extension where Base == Int {
-    
-    public var half: Double {
+    var half: Double {
         return Double(self.base) / 2.0
     }
 }

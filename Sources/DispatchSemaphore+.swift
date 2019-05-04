@@ -9,7 +9,7 @@
 import Foundation
 
 public extension DispatchSemaphore {
-    public static var empty: DispatchSemaphore {
+    static var empty: DispatchSemaphore {
         return DispatchSemaphore(value: 0)
     }
 }

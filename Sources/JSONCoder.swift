@@ -12,11 +12,11 @@ public enum JSONCoder {}
 
 public extension JSONCoder {
     
-    public var snakeCaseEncoder: JSONEncoder {
+    var snakeCaseEncoder: JSONEncoder {
         return JSONEncoder.snakeCaseEncoder
     }
     
-    public var snakeCaseDecoder: JSONDecoder {
+    var snakeCaseDecoder: JSONDecoder {
         return JSONDecoder.snakeCaseDecoder
     }
 }

@@ -23,11 +23,11 @@ public protocol ExtensionCompatible {
 
 public extension ExtensionCompatible {
     
-    public static var ex: Extension<Self>.Type {
+    static var ex: Extension<Self>.Type {
         return Extension<Self>.self
     }
     
-    public var ex: Extension<Self> {
+    var ex: Extension<Self> {
         return Extension(self)
     }
 }

@@ -18,7 +18,7 @@ public extension NibDesignable where Self: UIView {
         return nib.instantiate(withOwner: self).first as? UIView ?? UIView()
     }
     
-    public func configureNib() {
+    func configureNib() {
         let view = self.instantiate()
         self.insertSubview(view, at: 0)
         view.ex.fillSuperview()

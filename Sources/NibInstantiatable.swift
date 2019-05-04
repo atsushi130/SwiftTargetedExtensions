@@ -15,16 +15,16 @@ public protocol NibInstantiatable: class {
 }
 
 public extension NibInstantiatable where Self: NSObject {
-    public static var nibName: String { return Self.ex.className }
-    public static var nibBundle: Bundle { return Bundle(for: self) }
-    public static var nibOwner: Any? { return self }
-    public static var nibOptions: [AnyHashable: Any]? { return nil }
-    public static var instantiateIndex: Int { return 0 }
+    static var nibName: String { return Self.ex.className }
+    static var nibBundle: Bundle { return Bundle(for: self) }
+    static var nibOwner: Any? { return self }
+    static var nibOptions: [AnyHashable: Any]? { return nil }
+    static var instantiateIndex: Int { return 0 }
 }
 
 public extension NibInstantiatable where Self: UIView {
-    public static func instantiate() -> Self {
+    static func instantiate() -> Self {
         let nib = UINib(nibName: Self.nibName, bundle: Self.nibBundle)
-        return nib.instantiate(withOwner: Self.nibOwner, options: Self.nibOptions as! [UINib.OptionsKey : Any])[Self.instantiateIndex] as! Self
+        return nib.instantiate(withOwner: Self.nibOwner, options: Self.nibOptions as? [UINib.OptionsKey : Any])[Self.instantiateIndex] as! Self
     }
 }

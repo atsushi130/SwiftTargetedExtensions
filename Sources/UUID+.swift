@@ -11,7 +11,7 @@ import Foundation
 extension UUID: ExtensionCompatible {}
 
 public extension Extension where Base == UUID {
-    public static func generate() -> String {
+    static func generate() -> String {
         return UUID().uuidString
     }
 }
