@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/atsushi130/SwiftExtensions.git"><img src="https://img.shields.io/badge/Swift-SwiftExtensions-3B5998.svg"></a> 
-    <img src="https://img.shields.io/badge/Swift-4.2-ffac45.svg">
+    <img src="https://img.shields.io/badge/Swift-5-ffac45.svg">
     <a href="./license"><img src="https://img.shields.io/badge/License-MIT-d94c32.svg"></a>
     <img src="https://img.shields.io/badge/Carthage-v1.0.3-7ec9d9.svg">
 </p>
